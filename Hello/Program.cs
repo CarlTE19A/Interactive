@@ -310,7 +310,7 @@ namespace Hello
         Console.ReadLine();
             }
             if(no1 == "yes" || no1 == "Yes"){
-                System.Console.WriteLine("Thank u for understanding, I will ask you again");
+                System.Console.WriteLine("Fuck u for understanding, I will ask you again");
                 while(c1 != "Forest" && c1 != "forest" && c1 != "Castle" && c1 != "castle" && c1 != "No" && c1 != "NO" && c1 != "no"){
                 Console.WriteLine("[Forest or Castle]");
                 c1= Console.ReadLine();
@@ -323,7 +323,7 @@ namespace Hello
                 c1Castle();
             }
             if(c1 == "No" || c1 == "no" || c1 == "NO"){
-                System.Console.WriteLine("I hate you");
+                System.Console.WriteLine("I love you");
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 System.Console.WriteLine("You are so dead *Knucke Crunch*");
                 Console.ReadLine();
